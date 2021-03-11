@@ -1888,4 +1888,8 @@ button {
     font-size: 13px;
     color: #777; }
 
+/* 11.03.2021 15.48 @PabloACespedes */
+.total{
+  width: 100% !important;
+}
 /*============ End Blog Single Styles  =============*/
