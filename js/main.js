@@ -132,3 +132,14 @@ $(function() {
   
 });
 
+// mapa
+var ubi = [-27.07516,-55.64196];
+
+var mymap = L.map('mapid').setView(ubi, 30);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>'
+}).addTo(mymap);
+
+var marker = L.marker(ubi).addTo(mymap);
+
