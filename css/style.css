@@ -407,12 +407,13 @@ button {
         margin-right: 50px; } }
 
 .footer-area {
-  padding: 120px 0px 120px;
-  background: #0b1a2a; }
+    padding: 0;
+    background: #0b1a2a1f; 
+}
   @media (max-width: 991px) {
     .footer-area {
-      background: #222222;
-      padding: 60px 0px; } }
+      background: #0b1a2a1f;
+      padding: 0; } }
   @media (max-width: 991px) {
     .footer-area .single-footer-widget {
       margin-bottom: 30px; } }
